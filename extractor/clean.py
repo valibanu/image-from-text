@@ -25,17 +25,9 @@ def clean_input(input):
 #    input = clean_sentence(input)
 #    print(input)
 #    return input.split('\n')
-    return input
+    return input.strip()
 
+def get_paragraphs(input):
+    return input.split('\n')
 
-if __name__ == '__main__':
-    pass
-#    input = u"In 1856, the two principalities of Moldavia and Wallachia secured their autonomy and ended the suzerainty of the Ottoman Empire."
-##    input = u"The little yellow dog barked at the cat"
-#    s = clean_input(input)
-##    print(s)
-#    ie_preprocess(s)
-##    for sen in s:
-##        print(sen)
-#    
 
