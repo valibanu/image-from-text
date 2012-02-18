@@ -1,7 +1,7 @@
 '''
 Created on Feb 18, 2012
 
-@author: Diana
+@author: Vali
 '''
 from bing.bingimagesearch import BingImageSearch
 
