@@ -21,7 +21,7 @@ class BingImageSearch(object):
         '''
         self.bing = SimpleBing('6DDD22E2FDE6E12E755A1D96044041B13C64814F')
         
-    def search(self, text, search_results=5):
+    def search(self, text, search_results=3):
         json_response = self.bing.search(query=text, sources='image', 
                                          image_count=search_results)
 #        print(json_response)

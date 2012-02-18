@@ -28,6 +28,6 @@ def clean_input(input):
     return input.strip()
 
 def get_paragraphs(input):
-    return input.split('\n')
+    return input.split(':::')
 
 
